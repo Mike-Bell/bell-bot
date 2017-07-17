@@ -1,0 +1,22 @@
+{
+  "name": "bell-bot",
+  "version": "1.0.0",
+  "description": "flowdock bot bell-bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mike-Bell/bell-bot.git"
+  },
+  "author": "Mike Bell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mike-Bell/bell-bot/issues"
+  },
+  "homepage": "https://github.com/Mike-Bell/bell-bot#readme",
+  "dependencies": {
+    "flowdock": "^0.9.1"
+  }
+}
