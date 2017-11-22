@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Mike-Bell/bell-bot#readme",
   "dependencies": {
-    "flowdock": "^0.9.1"
+    "flowdock": "^0.9.1",
+    "redis": "^2.8.0"
   }
 }
