@@ -29,6 +29,12 @@ const handleMessage = message => {
     const command = message.content.slice(bellbotCommandToken.length).split(' ');
     console.log(command);
     if (command[0].toLowerCase() == 'say' && command[1].toLowerCase() == 'hi') {
-        session.threadMessage(message.flow, message.thread_id, 'bellbot says hello!');
+        session.send('/messages', {
+            flow: message.flow,
+            thread_id: message.thread_id,
+            event: 'message',
+            content: 'hello!',
+            external_user_name: 'bell-bot'
+        });
     }
 }
